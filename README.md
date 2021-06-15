@@ -1,5 +1,7 @@
 # Go Example
 
+View official Vault Go documentation: https://github.com/hashicorp/vault/tree/master/api
+
 This repository is meant to demonstrate some of the basic functionality of HashiCorp Vault. Specifically, it demonstrates storing and accessing secrets stored in HashiCorp's KV2 (key/value pair) engine. 
 
 This repository demonstrates the following Vault functionality:
@@ -51,7 +53,6 @@ Set the following environment variables to configure which Vault server this app
 ```bash
 export VAULT_ADDR='http://127.0.0.1:8200'
 export VAULT_TOKEN='[TOKEN]'
-export VAULT_NAMESPACE=''
 ```
 
 ---
