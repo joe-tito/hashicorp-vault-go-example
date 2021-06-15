@@ -32,24 +32,6 @@ If you do not have Go installed on your machine already, please follow the instr
     # go version go1.15.8 linux/amd64
     ```
 
-
----
-
-## Add SpringVault to an existing project
-
-To install the SpringVault into an existing project, add one of the following to your project:
-
-- Maven
-    ```bash
-    <dependency>
-        <groupId>org.springframework.vault</groupId>
-        <artifactId>spring-vault-core</artifactId>
-        <version>${version}</version>
-    </dependency>
-    ```
-
-To view additional documentation / how-to's for VaultSpring, check out their github repository located here: https://github.com/spring-projects/spring-vault
-
 ---
 
 ## Clone this repository
@@ -98,36 +80,20 @@ Execute the binary generated above
 ~/go/bin/demo
 ```
 
-You can now navigate to http://localhost:8200 to launch the Vault Spring demo.
-
-If the web app ran successfull, you should see the following output in your browser:
+If the app ran successfull, you should see the following output:
 
 ```bash
-Vault is AWESOME! :)
-```
-
-Then in your terminal, you should see the following output:
-
-```bash
-Using Vault: http://localhost:8200
+Using Vault: http://127.0.0.1:8200
 Writing secret: test/data/demo
-Writing data:
-item1: adp is awesome
-item2: spring is awesome
-item3: protect your secrets
 Reading secret: test/data/demo
-item1: adp is awesome
-item2: spring is awesome
-item3: protect your secrets
+item1: secrets are cool
+item2: adp rocks
+item3: golang is neat
 Writing secret: test/data/demo
-Writing data:
-item1: adp is awesome
-item2: updated secrets are neat
-item3: this is neat
 Reading secret: test/data/demo
-item1: adp is awesome
-item2: updated secrets are neat
-item3: this is neat
+item1: protect your secrets
+item2: adp is amazing
+item3: golang is fun
 ```
 
 To validate the KV was written successfully, you can also:
