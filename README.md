@@ -12,7 +12,7 @@ This repository demonstrates the following Vault functionality:
 
 ## Go Installation
 
-If you do not have Go installed on your machine already, please follow the instructions below to install them.
+If you do not have Go installed on your machine already, please follow the instructions below to install it.
 
 1) Connect to your Linux instance 
 
